@@ -19,6 +19,15 @@ ul{
     flex-wrap: wrap;
 }
 
+h2{
+    text-align: center;
+    color: #05511f;
+    font-size: 5rem;
+    margin-top: 150px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
 /* navigation bar */
 nav{
     top: 0.5;
@@ -56,23 +65,28 @@ header h1{
 #about-us{
     width: 75%;
     margin: 50px auto;
-    background-color: salmon;
+    background-color: #05511f;
     border-radius: 2rem;
-    border: 5px solid salmon;
+    border: 5px solid #05511f;
     padding:15px ;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 #about-us h2{
     font-size: 3.5rem;
     color: #e9e7e8;
     font-family: 'Playball', cursive;
+    position: relative;
+    bottom: 3rem;
 }
 
 #about-us p{
     font-size: 1.5rem;
     font-family: Helvetica, sans-serif;
-    color: #6d6166;
+    color: #c3ccc7;
+    position: relative;
+    bottom: 1.5rem;
 }
 
 /* houses */
@@ -89,4 +103,14 @@ header h1{
 #houses figure figcaption{
     font-size: 3.25rem;
     color: #e0e1db;
+}
+
+/* staff */
+.member{
+    width: 25%;
+    margin: 0 50px;
+}
+.member img{
+    width: auto;
+    height: 420px;
 }
