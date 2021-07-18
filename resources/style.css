@@ -17,7 +17,6 @@ ul{
     width: 100%;
     margin: 100px auto;
     flex-wrap: wrap;
-    height: 1800px;
 }
 
 h2{
@@ -122,6 +121,7 @@ header h1{
 .member img{
     width: 100%;
     height: 420px;
+    min-width: 180px;
 }
 
 .member h3{
@@ -138,6 +138,7 @@ header h1{
 
 /* footer */
 footer{
+    display: block;
     width: 100%;
     background-color: black;
     color: salmon;
