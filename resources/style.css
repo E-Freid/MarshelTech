@@ -108,9 +108,24 @@ header h1{
 /* staff */
 .member{
     width: 25%;
-    margin: 0 50px;
+    margin: 30px;
+    text-align: center;
 }
 .member img{
     width: auto;
     height: 420px;
 }
+
+.member h3{
+    color: #f7f9f8;
+    font-size: 3.75rem;
+    font-family: 'Playball', cursive;
+    margin-bottom: 10px;
+}
+
+.member p{
+    font-size: 2.85rem;
+    color: #d1d8d4;
+}
+
+/* footer */
