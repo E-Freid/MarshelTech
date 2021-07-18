@@ -30,7 +30,7 @@ h2{
 
 /* navigation bar */
 nav{
-    top: 0.5;
+    top: 0;
     width: 100%;
     position: fixed;
     z-index: 1;
